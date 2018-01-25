@@ -2,8 +2,12 @@
 //
 
 #include "stdafx.h"
+#include <iostream>
 #include <cstdlib>
 #include <ctime>
+
+
+using namespace std;
 
 int main()
 {
@@ -24,11 +28,10 @@ int main()
 			cout << "Guess too high!\n\n";
 		}
 
-		else if (guess < secretNumber) {
+		else if (guess < secretNumber) 
+		{
 			cout << "guess too low!\n\n";
-
 		}
-
 
 
 
