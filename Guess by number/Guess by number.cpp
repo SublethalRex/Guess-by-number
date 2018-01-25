@@ -19,7 +19,16 @@ int main()
 		cout << "Enter a guess: ";
 		cin >> guess;
 		++tries;
-		if (guess>secretNumber)
+		if (guess > secretNumber) 
+		{
+			cout << "Guess too high!\n\n";
+		}
+
+		else if (guess < secretNumber) {
+			cout << "guess too low!\n\n";
+
+		}
+
 
 
 
